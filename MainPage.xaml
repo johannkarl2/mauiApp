@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp3.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="5"
+            VerticalOptions="CenterAndExpand"
+           >
+           
+            <Label
+                Text="Welcome!"
+                Style="{StaticResource Headline}"
+                FontSize="Large" />
+
+
+            <Grid ColumnDefinitions="40,*"  RowSpacing="10" RowDefinitions="auto,auto,auto">
+
+                <Image Source="username.png"
+                      HeightRequest="40"
+                      Aspect="AspectFit"
+                      Grid.Column="0"
+                       Grid.Row="0"
+                      HorizontalOptions="Start"/>
+
+                <Entry 
+                      x:Name="txtUsername"
+                      Placeholder=""
+                      HorizontalOptions="FillAndExpand"
+                      Grid.Column="1"
+                       Grid.Row="0"
+                    />
+
+                <Image Source="password.png"
+                      HeightRequest="40"
+                      Aspect="AspectFit"
+                      Grid.Column="0"
+                      HorizontalOptions="Start"
+                       Grid.Row="1"
+                       />
+
+                <Entry 
+                     x:Name="txtPassword"
+                     Placeholder=""
+                     HorizontalOptions="FillAndExpand"
+                     Grid.Column="1"
+                       Grid.Row="1"
+                    IsPassword="True"
+                    />
+                <HorizontalStackLayout Spacing="0" Grid.Column="1" Grid.Row="2" HorizontalOptions="End">
+                    <CheckBox x:Name="ShowPass" CheckedChanged="ShowPassword" Margin="0,0,0,0" VerticalOptions="Center" MinimumWidthRequest="10" MinimumHeightRequest="0"
+                   />
+                    <Label FontSize="Body" Text="Show Password" VerticalOptions="Center" Margin="0"/>
+                </HorizontalStackLayout>
+
+            </Grid>
+            <Button
+                x:Name="btnLogIn"
+                Margin="0,0,0,0"
+                Text="Log In"
+                Clicked="btnLogIn_Clicked"
+                SemanticProperties.Hint="Counts the number of times you click"
+                HorizontalOptions="Fill"  />
+            
+        </VerticalStackLayout>
+        
+    </ScrollView>
+
+</ContentPage>
