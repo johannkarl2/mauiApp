@@ -41,5 +41,9 @@ namespace MauiApp3
             }
         }
 
+        private void TapGestureRecognizer_Tapped(object sender, TappedEventArgs e)
+        {
+            Navigation.PushAsync(new Registration());
+        }
     }
 }

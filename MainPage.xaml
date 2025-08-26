@@ -9,7 +9,7 @@
             Spacing="5"
             VerticalOptions="CenterAndExpand"
            >
-           
+
             <Label
                 Text="Welcome!"
                 Style="{StaticResource Headline}"
@@ -63,7 +63,16 @@
                 Clicked="btnLogIn_Clicked"
                 SemanticProperties.Hint="Counts the number of times you click"
                 HorizontalOptions="Fill"  />
-            
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="5">
+            <Label FontSize="Body" Text="Dont have an account?" Margin="0"/>
+
+            <Label FontSize="Body" TextDecorations="Underline" TextColor="BlueViolet" Text="Show Password" Margin="0">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"></TapGestureRecognizer>
+                </Label.GestureRecognizers>
+            </Label>
+            </HorizontalStackLayout>
+
         </VerticalStackLayout>
         
     </ScrollView>
