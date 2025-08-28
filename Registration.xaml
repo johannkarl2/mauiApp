@@ -38,18 +38,211 @@
             </Picker.ItemsSource>
 
         </Picker>
-        <Label x:Name="lblnumber" FontSize="Body" Text="Phone Number" VerticalOptions="Center" Margin="0"/>
+        <Label  FontSize="Body" Text="Phone Number" VerticalOptions="Center" Margin="0"/>
+        <HorizontalStackLayout>
+            <Picker>
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>0</x:String>
+                        
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Picker>
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        
+                        <x:String>9</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Picker >
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>0</x:String>
+                        <x:String>1</x:String>
+                        <x:String>2</x:String>
+                        <x:String>3</x:String>
+                        <x:String>4</x:String>
+                        <x:String>5</x:String>
+                        <x:String>6</x:String>
+                        <x:String>7</x:String>
+                        <x:String>8</x:String>
+                        <x:String>9</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Picker >
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>0</x:String>
+                        <x:String>1</x:String>
+                        <x:String>2</x:String>
+                        <x:String>3</x:String>
+                        <x:String>4</x:String>
+                        <x:String>5</x:String>
+                        <x:String>6</x:String>
+                        <x:String>7</x:String>
+                        <x:String>8</x:String>
+                        <x:String>9</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Picker >
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>0</x:String>
+                        <x:String>1</x:String>
+                        <x:String>2</x:String>
+                        <x:String>3</x:String>
+                        <x:String>4</x:String>
+                        <x:String>5</x:String>
+                        <x:String>6</x:String>
+                        <x:String>7</x:String>
+                        <x:String>8</x:String>
+                        <x:String>9</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Picker >
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>0</x:String>
+                        <x:String>1</x:String>
+                        <x:String>2</x:String>
+                        <x:String>3</x:String>
+                        <x:String>4</x:String>
+                        <x:String>5</x:String>
+                        <x:String>6</x:String>
+                        <x:String>7</x:String>
+                        <x:String>8</x:String>
+                        <x:String>9</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Picker >
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>0</x:String>
+                        <x:String>1</x:String>
+                        <x:String>2</x:String>
+                        <x:String>3</x:String>
+                        <x:String>4</x:String>
+                        <x:String>5</x:String>
+                        <x:String>6</x:String>
+                        <x:String>7</x:String>
+                        <x:String>8</x:String>
+                        <x:String>9</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Picker >
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>0</x:String>
+                        <x:String>1</x:String>
+                        <x:String>2</x:String>
+                        <x:String>3</x:String>
+                        <x:String>4</x:String>
+                        <x:String>5</x:String>
+                        <x:String>6</x:String>
+                        <x:String>7</x:String>
+                        <x:String>8</x:String>
+                        <x:String>9</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Picker >
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>0</x:String>
+                        <x:String>1</x:String>
+                        <x:String>2</x:String>
+                        <x:String>3</x:String>
+                        <x:String>4</x:String>
+                        <x:String>5</x:String>
+                        <x:String>6</x:String>
+                        <x:String>7</x:String>
+                        <x:String>8</x:String>
+                        <x:String>9</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Picker >
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>0</x:String>
+                        <x:String>1</x:String>
+                        <x:String>2</x:String>
+                        <x:String>3</x:String>
+                        <x:String>4</x:String>
+                        <x:String>5</x:String>
+                        <x:String>6</x:String>
+                        <x:String>7</x:String>
+                        <x:String>8</x:String>
+                        <x:String>9</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Picker >
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>0</x:String>
+                        <x:String>1</x:String>
+                        <x:String>2</x:String>
+                        <x:String>3</x:String>
+                        <x:String>4</x:String>
+                        <x:String>5</x:String>
+                        <x:String>6</x:String>
+                        <x:String>7</x:String>
+                        <x:String>8</x:String>
+                        <x:String>9</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+        </HorizontalStackLayout>
 
-        <Slider 
-    Minimum="100000000"
-    Maximum="999999999"
-    x:Name="mySlider"
-    ValueChanged="mySlider_ValueChanged" />
-        <Stepper
-            x:Name="myStepper"
-            Minimum="100000000"
-            Maximum="999999999"
-            Increment="1"
-            ValueChanged="myStepper_ValueChanged" />
+        <Label  FontSize="Body" Text="Religion" VerticalOptions="Center" Margin="0"/>
+
+        <HorizontalStackLayout Spacing="20" Padding="0">
+            <RadioButton Content="Catholic"  GroupName="Religion"/>
+        <RadioButton Content="Born Again"  GroupName="Religion"/>
+        <RadioButton Content="Muslim"  GroupName="Religion"/>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout VerticalOptions="Center">
+            <Picker x:Name="RegionPicker"
+                    MaximumHeightRequest="100"
+                HeightRequest="50"
+                    VerticalOptions="Center"
+                    SelectedIndexChanged="RegionPicker_SelectedIndexChanged">
+                <Picker.Items>
+
+                    <x:String>Ilocos Region (Region I)</x:String>
+                    <x:String>Cagayan Valley (Region II)</x:String>
+                    <x:String>Central Luzon (Region III)</x:String>
+                    <x:String>CALABARZON (Region IV-A)</x:String>
+                    <x:String>MIMAROPA (Region IV-B)</x:String>
+                    <x:String>Bicol Region (Region V)</x:String>
+                    <x:String>Western Visayas (Region VI)</x:String>
+                    <x:String>Central Visayas (Region VII)</x:String>
+                    <x:String>Eastern Visayas (Region VIII)</x:String>
+                    <x:String>Zamboanga Peninsula (Region IX)</x:String>
+                    <x:String>Northern Mindanao (Region X)</x:String>
+                    <x:String>Davao Region (Region XI)</x:String>
+                    <x:String>SOCCSKSARGEN (Region XII)</x:String>
+                    <x:String>Caraga (Region XIII)</x:String>
+                    <x:String>Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)</x:String>
+                    <x:String>Cordillera Administrative Region (CAR)</x:String>
+                    <x:String>National Capital Region (NCR)</x:String>
+                </Picker.Items>
+            </Picker>
+            <Picker 
+                  VerticalOptions="Center"
+                
+                x:Name="ProvincePicker"
+               HeightRequest="50"
+                Margin="0,20,0,0"/>
+
+        </HorizontalStackLayout>
     </VerticalStackLayout>
 </ContentPage>
