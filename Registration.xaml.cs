@@ -88,6 +88,28 @@ public partial class Registration : ContentPage
         }
 
         ProvincePicker.ItemsSource = provinces;
+
+    }
+
+  
+
+    private void txtPhone_TextChanged_1(object sender, TextChangedEventArgs e)
+    {
+        string newText = System.Text.RegularExpressions.Regex.Replace(e.NewTextValue, @"[^0-9]+", "");
+
+        // Cast the sender back to an Entry.
+        var entry = (Entry)sender;
+
+        // Only update the text if a change actually occurred, to prevent a cursor flicker.
+        if (entry.Text != newText)
+        {
+            entry.Text = newText;
+        }
+    }
+
+    private void Button_Clicked(object sender, EventArgs e)
+    {
+
     }
 }
 

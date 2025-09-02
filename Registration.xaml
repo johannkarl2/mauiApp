@@ -39,168 +39,15 @@
 
         </Picker>
         <Label  FontSize="Body" Text="Phone Number" VerticalOptions="Center" Margin="0"/>
-        <HorizontalStackLayout>
-            <Picker>
-                <Picker.ItemsSource>
-                    <x:Array Type="{x:Type x:String}">
-                        <x:String>0</x:String>
-                        
-                    </x:Array>
-                </Picker.ItemsSource>
-            </Picker>
-            <Picker>
-                <Picker.ItemsSource>
-                    <x:Array Type="{x:Type x:String}">
-                        
-                        <x:String>9</x:String>
-                    </x:Array>
-                </Picker.ItemsSource>
-            </Picker>
-            <Picker >
-                <Picker.ItemsSource>
-                    <x:Array Type="{x:Type x:String}">
-                        <x:String>0</x:String>
-                        <x:String>1</x:String>
-                        <x:String>2</x:String>
-                        <x:String>3</x:String>
-                        <x:String>4</x:String>
-                        <x:String>5</x:String>
-                        <x:String>6</x:String>
-                        <x:String>7</x:String>
-                        <x:String>8</x:String>
-                        <x:String>9</x:String>
-                    </x:Array>
-                </Picker.ItemsSource>
-            </Picker>
-            <Picker >
-                <Picker.ItemsSource>
-                    <x:Array Type="{x:Type x:String}">
-                        <x:String>0</x:String>
-                        <x:String>1</x:String>
-                        <x:String>2</x:String>
-                        <x:String>3</x:String>
-                        <x:String>4</x:String>
-                        <x:String>5</x:String>
-                        <x:String>6</x:String>
-                        <x:String>7</x:String>
-                        <x:String>8</x:String>
-                        <x:String>9</x:String>
-                    </x:Array>
-                </Picker.ItemsSource>
-            </Picker>
-            <Picker >
-                <Picker.ItemsSource>
-                    <x:Array Type="{x:Type x:String}">
-                        <x:String>0</x:String>
-                        <x:String>1</x:String>
-                        <x:String>2</x:String>
-                        <x:String>3</x:String>
-                        <x:String>4</x:String>
-                        <x:String>5</x:String>
-                        <x:String>6</x:String>
-                        <x:String>7</x:String>
-                        <x:String>8</x:String>
-                        <x:String>9</x:String>
-                    </x:Array>
-                </Picker.ItemsSource>
-            </Picker>
-            <Picker >
-                <Picker.ItemsSource>
-                    <x:Array Type="{x:Type x:String}">
-                        <x:String>0</x:String>
-                        <x:String>1</x:String>
-                        <x:String>2</x:String>
-                        <x:String>3</x:String>
-                        <x:String>4</x:String>
-                        <x:String>5</x:String>
-                        <x:String>6</x:String>
-                        <x:String>7</x:String>
-                        <x:String>8</x:String>
-                        <x:String>9</x:String>
-                    </x:Array>
-                </Picker.ItemsSource>
-            </Picker>
-            <Picker >
-                <Picker.ItemsSource>
-                    <x:Array Type="{x:Type x:String}">
-                        <x:String>0</x:String>
-                        <x:String>1</x:String>
-                        <x:String>2</x:String>
-                        <x:String>3</x:String>
-                        <x:String>4</x:String>
-                        <x:String>5</x:String>
-                        <x:String>6</x:String>
-                        <x:String>7</x:String>
-                        <x:String>8</x:String>
-                        <x:String>9</x:String>
-                    </x:Array>
-                </Picker.ItemsSource>
-            </Picker>
-            <Picker >
-                <Picker.ItemsSource>
-                    <x:Array Type="{x:Type x:String}">
-                        <x:String>0</x:String>
-                        <x:String>1</x:String>
-                        <x:String>2</x:String>
-                        <x:String>3</x:String>
-                        <x:String>4</x:String>
-                        <x:String>5</x:String>
-                        <x:String>6</x:String>
-                        <x:String>7</x:String>
-                        <x:String>8</x:String>
-                        <x:String>9</x:String>
-                    </x:Array>
-                </Picker.ItemsSource>
-            </Picker>
-            <Picker >
-                <Picker.ItemsSource>
-                    <x:Array Type="{x:Type x:String}">
-                        <x:String>0</x:String>
-                        <x:String>1</x:String>
-                        <x:String>2</x:String>
-                        <x:String>3</x:String>
-                        <x:String>4</x:String>
-                        <x:String>5</x:String>
-                        <x:String>6</x:String>
-                        <x:String>7</x:String>
-                        <x:String>8</x:String>
-                        <x:String>9</x:String>
-                    </x:Array>
-                </Picker.ItemsSource>
-            </Picker>
-            <Picker >
-                <Picker.ItemsSource>
-                    <x:Array Type="{x:Type x:String}">
-                        <x:String>0</x:String>
-                        <x:String>1</x:String>
-                        <x:String>2</x:String>
-                        <x:String>3</x:String>
-                        <x:String>4</x:String>
-                        <x:String>5</x:String>
-                        <x:String>6</x:String>
-                        <x:String>7</x:String>
-                        <x:String>8</x:String>
-                        <x:String>9</x:String>
-                    </x:Array>
-                </Picker.ItemsSource>
-            </Picker>
-            <Picker >
-                <Picker.ItemsSource>
-                    <x:Array Type="{x:Type x:String}">
-                        <x:String>0</x:String>
-                        <x:String>1</x:String>
-                        <x:String>2</x:String>
-                        <x:String>3</x:String>
-                        <x:String>4</x:String>
-                        <x:String>5</x:String>
-                        <x:String>6</x:String>
-                        <x:String>7</x:String>
-                        <x:String>8</x:String>
-                        <x:String>9</x:String>
-                    </x:Array>
-                </Picker.ItemsSource>
-            </Picker>
-        </HorizontalStackLayout>
+        <Entry 
+             x:Name="txtPhone"
+             Placeholder="Phone Number"
+             HorizontalOptions="FillAndExpand"
+             TextChanged="txtPhone_TextChanged_1"
+            
+           
+        />
+
 
         <Label  FontSize="Body" Text="Religion" VerticalOptions="Center" Margin="0"/>
 
@@ -209,10 +56,13 @@
         <RadioButton Content="Born Again"  GroupName="Religion"/>
         <RadioButton Content="Muslim"  GroupName="Religion"/>
         </HorizontalStackLayout>
-        <HorizontalStackLayout VerticalOptions="Center">
-            <Picker x:Name="RegionPicker"
-                    MaximumHeightRequest="100"
+        <HorizontalStackLayout>
+            <Label  FontSize="Body" Text="Region" VerticalOptions="Center" Margin="0,0,5,0"/>
+            <Picker x:Name="RegionPicker" 
+                    MaximumWidthRequest="260"
                 HeightRequest="50"
+                    WidthRequest="500"
+                    
                     VerticalOptions="Center"
                     SelectedIndexChanged="RegionPicker_SelectedIndexChanged">
                 <Picker.Items>
@@ -236,13 +86,15 @@
                     <x:String>National Capital Region (NCR)</x:String>
                 </Picker.Items>
             </Picker>
-            <Picker 
-                  VerticalOptions="Center"
-                
-                x:Name="ProvincePicker"
-               HeightRequest="50"
-                Margin="0,20,0,0"/>
+        <Label  FontSize="Body" Text="Province" VerticalOptions="Center" Margin="15,0,5,0"/>
 
+        <Picker 
+                  VerticalOptions="Center"
+                    MaximumHeightRequest="100"
+                MinimumHeightRequest="50"
+                x:Name="ProvincePicker"
+                Margin="0,0,0,0"/>
         </HorizontalStackLayout>
+        <Button Text="Register" Margin="0,10,0,0" Clicked="Button_Clicked"></Button>
     </VerticalStackLayout>
 </ContentPage>
